@@ -191,3 +191,56 @@
   color: #222;
   margin: 0;
 }
+
+.powered-mac {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.powered-mac h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.powered-mac .intro {
+  font-size: 18px;
+  color: #cccccc;
+  max-width: 850px;
+  margin: 0 auto 60px;
+  line-height: 1.5;
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px 80px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tech-item {
+  width: 250px;
+  text-align: center;
+}
+
+.tech-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.tech-item h4 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.tech-item p {
+  font-size: 16px;
+  color: #aaaaaa;
+  line-height: 1.4;
+}
