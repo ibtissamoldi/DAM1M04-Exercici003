@@ -137,3 +137,57 @@
   border-bottom: 2px solid #0055cc;
   cursor: pointer;
 }
+
+.mac-exclusive {
+  background-color: #ffffff;
+  color: #111;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.mac-banner img {
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto 60px;
+}
+
+.mac-exclusive h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.mac-exclusive .intro {
+  max-width: 850px;
+  margin: 0 auto 60px;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.mac-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 60px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.icon-item {
+  width: 150px;
+  text-align: center;
+}
+
+.icon-item img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.icon-item p {
+  font-size: 16px;
+  color: #222;
+  margin: 0;
+}
