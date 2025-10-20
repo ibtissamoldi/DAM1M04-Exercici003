@@ -84,3 +84,56 @@
 .advanced-effects {
   background-color: #ffe6ec;
 }
+.advanced-workflows {
+  background-color: #f3f3f3;
+  text-align: center;
+  color: #111;
+  padding: 60px 20px;
+}
+.advanced-workflows h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.advanced-workflows .intro {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  color: #444;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.features-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+.feature-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+.feature-item h4 {
+  font-size: 18px;
+  color: #222;
+  margin: 0;
+}
+.tech-link {
+  color: #0055cc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 2px solid transparent;
+}
+.tech-link:hover {
+  border-bottom: 2px solid #0055cc;
+  cursor: pointer;
+}
