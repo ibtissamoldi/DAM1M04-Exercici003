@@ -258,3 +258,153 @@
   color: #aaaaaa;
   line-height: 1.4;
 }
+
+
+
+.love-pixelmator {
+  background-color: #f7f7f7;
+  text-align: center;
+  color: #111;
+  padding: 80px 20px;
+}
+
+.love-pixelmator h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.love-pixelmator .intro {
+  font-size: 18px;
+  max-width: 850px;
+  margin: 0 auto 60px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.rating-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px 80px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.rating-item {
+  width: 300px;
+  text-align: center;
+}
+
+.rating-item img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.rating-item p {
+  font-size: 16px;
+  color: #222;
+  line-height: 1.4;
+}
+
+
+
+.buy-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.app-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.buy-section h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.buy-section p {
+  color: #444;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.buy-btn {
+  background-color: #ff3366;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.buy-btn:hover {
+  opacity: 0.85;
+}
+
+.footer {
+  background-color: #f7f7f7;
+  padding: 60px 40px 40px;
+  color: #222;
+  font-size: 16px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 80px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #555;
+}
+
+.footer-column a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #f9f9f9;
+  text-align: left;
+  font-size: 13px;
+  color: #666;
+  padding: 20px 0 40px 0;
+  max-width: 1264px;
+  margin: 0 auto;
+  margin-left: 165px;
+}
+
+.footer-bottom hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.footer-bottom a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
