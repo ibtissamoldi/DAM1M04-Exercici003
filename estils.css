@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white; 
+  font-family: Arial, sans-serif; 
+}
+
+
+.vector-tools {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+.vector-tools h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.vector-tools .intro {
+  font-size: 16px;
+  color: lightgray; 
+  line-height: 1.5; 
+}
+
+
+.vector-main-image {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.vector-main-image img {
+  width: 90%; 
+  border-radius: 10px; 
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #1c1c1e;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: lightgray;
+  line-height: 1.4;
+}
+
+.card img {
+  width: 50%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
