@@ -4,6 +4,7 @@ html, body {
   background-color: black;
   color: white; 
   font-family: Arial, sans-serif; 
+  overflow-x: hidden;
 }
 
 .vector-tools { 
@@ -88,6 +89,8 @@ html, body {
   color: white;
   text-align: center;
   padding: 60px 60px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
 }
 
 .photo-tools h2 {
@@ -313,3 +316,18 @@ html, body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   margin-top: 24px;
 }
+
+.design-text {  
+  background: white;
+  padding: 70px 20px;
+  text-align: center;
+  width: 100vw; 
+  margin-left: calc(50% - 50vw); 
+}
+.design-box { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; margin-top:24px; align-items:flex-start; }
+.text-example { background:#fff; padding:32px; border-radius:12px; width:320px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+.display-title { font-size:28px; margin:0 0 8px; color:#0a6b4a; }
+.display-sub { color:#444; }
+.design-card { width:250px; padding:20px; border-radius:10px; background:#fff; box-shadow:0 4px 12px rgba(0,0,0,0.06); text-align:left; }
+.design-icon { width:36px; height:36px; margin-bottom:8px; }
+
