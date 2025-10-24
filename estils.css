@@ -57,6 +57,7 @@ html, body {
   border-radius: 10px;
   padding: 20px;
   text-align: left;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
 .card h3 {
@@ -74,6 +75,11 @@ html, body {
   width: 50%;
   border-radius: 8px;
   margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
 }
 
 /* NUEVA SECCIÓN - PHOTO TOOLS */
