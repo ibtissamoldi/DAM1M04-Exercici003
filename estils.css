@@ -10,6 +10,7 @@ html, body {
 .vector-tools {
   background-color: black;
   color: white;
+  padding: 50px;
   text-align: center;
 }
 
@@ -69,6 +70,79 @@ html, body {
   width: 50%;
   border-radius: 8px;
   margin-bottom: 10px;
+}
+
+/* NUEVA SECCIÓN - PHOTO TOOLS */
+.photo-tools {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.photo-tools h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.photo-tools .intro {
+  font-size: 16px;
+  color: lightgray;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.photo-image img {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+  margin-bottom: 50px;
+}
+
+/* Tarjetas nuevas */
+.photo-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.photo-card {
+  background-color: #1c1c1e;
+  width: 320px;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: left;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.photo-card:hover {
+  transform: translateY(-5px);
+}
+
+.photo-icon {
+  width: 28px;     
+  height: 28px;
+  margin-bottom: 12px;
+}
+
+.photo-card h3 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.photo-card p {
+  font-size: 14px;
+  color: lightgray;
+  line-height: 1.5;
 }
 
 
