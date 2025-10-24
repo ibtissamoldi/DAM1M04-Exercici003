@@ -9,7 +9,7 @@ html, body {
 .vector-tools { 
   background-color: black; 
   color: white; 
-  padding: 50px; 
+  padding: 40px 40px; 
   text-align: 
   center; 
 }
@@ -87,13 +87,13 @@ html, body {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 60px 20px;
+  padding: 60px 60px;
 }
 
 .photo-tools h2 {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .photo-tools .intro {
@@ -101,7 +101,7 @@ html, body {
   color: lightgray;
   line-height: 1.6;
   max-width: 700px;
-  margin: 0 auto 40px;
+  margin: 0 auto 20px;
 }
 
 .photo-image img {
@@ -159,16 +159,16 @@ html, body {
   background-color: white;
   color: black;
   text-align: center;
-  padding: 80px 20px;
+  padding: 60px 60px;
   width: 100vw;
-  margin-left: calc(50% - 50vw);
-  box-shadow: 0 -20px 40px rgba(0, 0, 0, 0.2); 
+  margin-left: calc(50% - 50vw); 
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .design-tools h2 {
   font-size: 34px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: black; 
 }
 
@@ -177,7 +177,7 @@ html, body {
   color: #555;  
   line-height: 1.6;
   max-width: 700px;
-  margin: 0 auto 50px;
+  margin: 0 auto 20px;
 }
 
 .design-image img {
@@ -227,3 +227,5 @@ html, body {
   width: 100%;
   border-radius: 8px;
 }
+
+
