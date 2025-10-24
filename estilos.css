@@ -7,43 +7,6 @@ html, body {
   overflow-x: hidden;
 }
 
-.vector-tools { 
-  background-color: black; 
-  color: white; 
-  padding: 40px 40px; 
-  text-align: 
-  center; 
-}
-
-.vector-tools .container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.vector-tools h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-
-.vector-tools .intro {
-  font-size: 16px;
-  color: lightgray; 
-  line-height: 1.5; 
-}
-
-
-.vector-main-image {
-  margin-top: 30px;
-  text-align: center;
-}
-
-.vector-main-image img {
-  width: 70%;
-  max-width: 900px;
-}
-
 .cards {
   display: flex;
   flex-wrap: wrap;
